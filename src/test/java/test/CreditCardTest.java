@@ -7,6 +7,8 @@ import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
 import page.MainPage;
 import page.PaymentFormBuyByCreditPage;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
