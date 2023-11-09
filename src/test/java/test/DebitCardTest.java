@@ -8,9 +8,9 @@ import org.junit.jupiter.api.*;
 import page.MainPage;
 import page.PaymentFormBuyPage;
 
+
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 public class DebitCardTest {
 
     private MainPage mainPage;

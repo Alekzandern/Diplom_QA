@@ -12,7 +12,6 @@ compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
 allure {
-    autoconfigure = true
     version = '2.20.1'
     useJUnit5 {
         version = '2.20.1'
@@ -32,12 +31,13 @@ dependencies {
     testImplementation 'commons-dbutils:commons-dbutils:1.7'
     testImplementation 'com.github.javafaker:javafaker:1.0.2'
     testImplementation 'io.qameta.allure:allure-selenide:2.20.1'
-    testImplementation 'org.postgresql:postgresql:42.2.3'
+    testImplementation 'org.postgresql:postgresql:42.2.27'
     implementation 'org.apache.tika:tika-core:2.4.1'
-    testImplementation 'io.rest-assured:rest-assured:4.3.0'
+    testImplementation 'io.rest-assured:rest-assured:4.0.0'
 }
 
 test {
     useJUnitPlatform()
     systemProperty 'db.url', System.getProperty('db.url')
+
 }
