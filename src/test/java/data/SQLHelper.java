@@ -13,7 +13,7 @@ public class SQLHelper {
 
     }
 
-    private static final String DB_URL = System.getProperty("db.url");
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/app";
 
     @SneakyThrows
     public static Connection getConnection() {
