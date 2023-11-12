@@ -26,44 +26,43 @@ docker-compose up
 Запускаем SUT.
 
 для MySQL:
-        В консоле ввести команду: java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
+ - консоле ввести команду: java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar
 
 для PostgreSQL:
-        В консоле ввести команду: java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
+ - консоле ввести команду: java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar
 
 Запускаем авто-тесты
 
 для MySQL:
-        В консоле ввести команду: ./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app
+ - консоле ввести команду: ./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app
 для PostgreSQL:
-        В консоле ввести команду: ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
+ - консоле ввести команду: ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app"
 
 Генерируем отчёт по итогам тестирования с помощью Allure командой:
 
-./gradlew allureServe
+ - ./gradlew allureServe
 
 Отчет автоматически откроется в браузере.
 
 После работы с отчетом, останавливаем работу АllureServe в терминале при помощи сочетания клавиш Ctrl + C и подтверждаем в терминале клавишей Y
 Согласно плана проведено автоматизированное тестирование веб-сервиса.
 
-    В ходе тестирования были реализованы позитивные и негативные сценарии, API сценарии с проверкой результатов выполнения операции в базе данных
-    Проверенна заявленная поддержка двух СУБД
-        MySQL;
-        PostgreSQL.
+В ходе тестирования были реализованы позитивные и негативные сценарии, API сценарии с проверкой результатов выполнения операции в базе данных
+Проверенна заявленная поддержка двух СУБД:
+ MySQL;
+ PostgreSQL.
 
 Тест-кейсы
 
 Общее колличество тест-кейсов:
 
-67
+ 67
 
 Общее колличество дефектов, найденных с помощью тест-кейсов:
 
-19
+ 19
 
 Общие рекомендации
 
 По результатам тестирования необходимо:
-
-    Исправить выявленные дефекты
+ Исправить выявленные дефекты
