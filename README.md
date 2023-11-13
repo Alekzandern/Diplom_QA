@@ -67,6 +67,6 @@ docker-compose up
 
  План работы
  
- Отчётные документы по итогам тестирования.https://github.com/Alekzandern/Diplom_QA/blob/9149734352435958bd28e7bde6bc390cd8b49279/Report.md
+ Отчётные документы по итогам тестирования.[https://github.com/Alekzandern/Diplom_QA/blob/9149734352435958bd28e7bde6bc390cd8b49279/Report.md]
  
  Отчётные документы по итогам автоматизации
