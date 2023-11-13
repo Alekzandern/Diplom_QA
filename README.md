@@ -69,4 +69,4 @@ docker-compose up
  
  [Отчётные документы по итогам тестирования](https://github.com/Alekzandern/Diplom_QA/blob/main/Report.md)
  
- Отчётные документы по итогам автоматизации
+ [Отчётные документы по итогам автоматизации](https://github.com/Alekzandern/Diplom_QA/blob/main/Automation%20report.md)
