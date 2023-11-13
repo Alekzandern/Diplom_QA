@@ -65,7 +65,7 @@ docker-compose up
 По результатам тестирования необходимо:
  Исправить выявленные дефекты.
 
- План работы
+ [План работы](https://github.com/Alekzandern/Diplom_QA/blob/main/plan.md)
  
  [Отчётные документы по итогам тестирования](https://github.com/Alekzandern/Diplom_QA/blob/main/Report.md)
  
