@@ -13,10 +13,10 @@ public class SQLHelper {
 
     }
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/app";
+    protected static final String DB_URL = "jdbc:mysql://localhost:3306/app";
 
     @SneakyThrows
-    public static Connection getConnection() {
+    protected static Connection getConnection() {
         return DriverManager.getConnection(DB_URL, "app", "pass");
     }
 
